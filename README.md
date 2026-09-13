@@ -20,7 +20,7 @@ Obsługiwane formaty wejściowe to m.in.:
 * Format mieszany (np. `05.3.2026`, `5/03/2026`)
 
 ## Trening i Ewaluacja
-Model trenowano przez 10 epok przy użyciu optymalizatora Adam (`lr = 0.001`) oraz funkcji straty CrossEntropyLoss (z ignorowaniem tokenu `<PAD>`) z zastosowaniem techniki Teacher Forcing.
+Model trenowano przez 10 epok przy użyciu optymalizatora Adam (`lr = 0.001`) oraz funkcji straty CrossEntropyLoss (z ignorowaniem tokenu `<PAD>`) z zastosowaniem techniki Teacher Forcing
 
 Do oceny jakości zastosowano metrykę **Exact Match Accuracy**[cite: 1]. Na 100 niewidzianych podczas treningu, losowych przykładach, model uzyskał skuteczność **100.00%**[cite: 1]. Training Loss i Validation Loss równolegle zbiegły do wartości bliskiej zeru około 7. epoki, co świadczy o stabilnej zbieżności i braku przeuczenia.
 
