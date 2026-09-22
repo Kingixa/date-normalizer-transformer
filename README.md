@@ -38,4 +38,4 @@ Do oceny jakości zastosowano metrykę **Exact Match Accuracy**[cite: 1]. Na 100
 * **PyTorch** (`torch`, `torch.nn`, `torch.optim`, `torch.utils.data`) – budowa modelu, tokenizacja, mechanizm uwagi i trening.
 * **Matplotlib** (`matplotlib.pyplot`) – generowanie wykresów przebiegu uczenia.
 * **Seaborn** (`seaborn`) – tworzenie map ciepła (heatmap) wizualizujących wagi z mechanizmu Cross-Attention.
-* **Python Built-ins** (`random`) – generowanie w locie losowych przypadków testowych datasetu.
+* **Python Built-ins** (`random`) – generowanie w locie losowych przypadków testowych datasetu
